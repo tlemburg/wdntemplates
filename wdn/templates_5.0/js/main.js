@@ -8,7 +8,6 @@ requirejs.config({
 	}
 });
 
-<<<<<<< HEAD
 requirejs([
 	// these map to used callback parameters
 	'wdn',
@@ -17,7 +16,6 @@ requirejs([
 	'plugins/skipto/skipto.min.js'
 ], function(WDN, require) {
 
-=======
 require(['jquery'], function($) {
 	$(document).ready(function() {
 		var menu_shown_at_small = false;
@@ -64,5 +62,4 @@ require(['jquery'], function($) {
 			}
 		});
 	});
->>>>>>> Animations
 });
